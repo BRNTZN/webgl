@@ -1,0 +1,27 @@
+{
+  "name": "webgl",
+  "version": "1.0.0",
+  "description": "webgl tryouts",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "reload": "^2.2.2"
+  },
+  "scripts": {
+    "start": "reload -b -s static/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRNTZN/webgl.git"
+  },
+  "keywords": [
+    "webgl",
+    "javascript"
+  ],
+  "author": "Brent Courtois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BRNTZN/webgl/issues"
+  },
+  "homepage": "https://github.com/BRNTZN/webgl#readme"
+}

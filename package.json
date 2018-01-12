@@ -5,10 +5,10 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "reload": "^2.2.2"
+    "watch-http-server": "^0.7.6"
   },
   "scripts": {
-    "start": "reload -b -s static/index.html"
+    "start": "watch-http-server -a 127.0.0.1 -o"
   },
   "repository": {
     "type": "git",

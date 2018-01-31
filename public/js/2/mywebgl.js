@@ -87,6 +87,7 @@ function initBuffers(gl) {
      1.0, -1.0,
     -1.0, -1.0,
   ];
+  console.log(positions)
 
   // Now pass the list of positions into WebGL to build the
   // shape. We do this by creating a Float32Array from the
@@ -144,7 +145,7 @@ function drawScene(gl, programInfo, buffers) {
 
   mat4.translate(modelViewMatrix,     // destination matrix
                  modelViewMatrix,     // matrix to translate
-                 [-0.0, 0.0, -6.0]);  // amount to translate
+                 [-0.0, -0.0, -6.0]);  // amount to translate
 
   // Tell WebGL how to pull out the positions from the position
   // buffer into the vertexPosition attribute.
